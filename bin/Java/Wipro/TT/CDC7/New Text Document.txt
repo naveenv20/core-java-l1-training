@@ -1,0 +1,20 @@
+package Wipro.TT.CDC7;
+
+
+import Wipro.TT.ProjectZone.*;
+
+class AccessSpecifiersDemo_A16 extends AccessSpecifiers{
+
+void view(){
+System.out.println(iDefNo);
+System.out.println(iProNo);
+System.out.println(iPriNo);
+
+display();
+}
+
+public static void main(String a[]){
+AccessSpecifiersDemo_A16 object= new AccessSpecifiersDemo_A16 ();
+object.view();
+}
+}
